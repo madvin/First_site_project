@@ -1,0 +1,85 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h2, h3 {
+    color: #4a4a8b;
+}
+
+/* Form styling */
+form {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e0e7ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a4a8b;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6b6bc6;
+}
+
+/* Results display styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#valueList {
+    margin-top: 10px;
+    padding: 0;
+    max-width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul#valueList li {
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+ul#valueList li:last-child {
+    border-bottom: none;
+}
+
+/* Total sum display */
+#totalSum {
+    font-size: 1.5em;
+    color: #4a4a8b;
+    font-weight: bold;
+}
